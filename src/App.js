@@ -19,7 +19,7 @@ const particleOptions = {
       shadow: {
         enable: true,
         color: "#37023b",
-        blur: 5
+        blur: 10
       }
     }
   }
