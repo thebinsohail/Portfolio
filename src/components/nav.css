@@ -1,0 +1,35 @@
+
+nav{
+    background-color:#0e2e45;
+    color: #fff;
+    opacity: 85%;
+
+}
+nav ul{
+    list-style-type:none;
+         
+}
+nav ul li{
+    margin-left: 80px;
+    display: inline-block;
+    position: flex;
+}
+
+button{
+  font-weight: 500;  
+  background-color:transparent;
+  border: none;
+  color: azure;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 2px;
+  transition: 0.1s;
+  font-size: 16px;
+}
+button:hover{
+    transition: 1s linear;
+    color: white;
+    background: #174975;
+    width:0.3s 200px 
+}

@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.about{
+    background:#fff;
+    color:black
+    }
+    .about p{
+        letter-spacing:0.5px;
+        margin-top: 50px;      
+        font-weight: 600;
+        text-align: center;
+    }
+  .aboutrow {
+      margin-top: 50px;
+    background:transparent;
+    padding-bottom:50px
+  }
+
+    .about img{
+        margin-top:50px;
+    }
+    .about button{
+        background:#0e2e45;  
+        color: #fff;
+        white-space: nowrap;
+    
+    }
+    
+    .about button:hover{
+        background:#1b5c87;
+        color: #fff;
+        transition: 0.3s;   
+    }
+ 
+    .skills ul{
+            list-style-type: none;
+           
+    }
+    .skills ul li{
+        margin-top: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+        display: inline-block;
+    }
+    .skills ul li:hover{
+        
+        color: black;
+        background:whitesmoke; 
+
+    }
+
+    .about{
+        position: justify;
+        padding-bottom: 250px;
+        background: #fff;
+        margin-top:200px
+    }
+    .about h3{
+        text-align: center;
+        margin-top: 50px;
+    }
+.cards{
+    background: #edf3f7;
+    transition:0.4s linear;
+    color:black;
+}

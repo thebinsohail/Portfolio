@@ -1,0 +1,65 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.bio{
+    color: black;
+        background: transparent
+}
+
+.particles{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+.bio h1{
+    margin-top:200px;
+  text-align:center;
+  color: black;
+}
+.bio h5{
+    margin-top: 25px;
+  text-align:center;
+  color: black;
+  animation: type 5s;
+  white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.skills{
+    margin: 0;
+    background: #fff;
+  padding-bottom: 50px;
+}
+.skills h3{
+    margin-top:0;
+    padding-bottom: 100px;
+    animation: change 3s ;
+
+}
+
+.bars{
+ 
+    padding: 0;
+    margin: 0;
+}
+.accomplishments{
+    margin-top: 100px;
+    background-color: transparent;
+    text-align: center;
+}
+.accomplishments h5{
+    margin-top: 50px;
+}
+.accomplishments button{
+    background-color: #0e2e45;
+}
+
+.accomplishments #rows:hover{
+    background-color:#0e2e45;
+    color: #fff;
+}
