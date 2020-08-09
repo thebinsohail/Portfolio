@@ -63,3 +63,36 @@ html{
     background-color:#0e2e45;
     color: #fff;
 }
+@media (max-width:992px){
+    .accomplishments #rows{
+        display: inline-block;
+        position: justify;
+        width:95%;
+        margin-left:8px
+    }
+    .accomplishments #row3{
+        display: flex;
+        position: relative;
+        width:85%;
+        margin-left: 300px;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:768px){
+    .accomplishments #rows{
+        display: flex;
+        position: relative;
+        width:85%;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .accomplishments #row3{
+        display: flex;
+        position: relative;
+        width:85%;
+        margin-top: 50px;
+        flex-direction: column;
+        
+    }
+}
