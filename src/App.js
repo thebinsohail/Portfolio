@@ -12,17 +12,13 @@ import './components/about.css'
 import { DiCode } from "react-icons/di";
 import Skills from "./components/Skills"
 import Accomp from "./components/Accomp"
+import ParticlesBg from 'particles-bg'
 
 const particleOptions = {
-  particles: {
-    line_linked: {
-      shadow: {
-        enable: true,
-        color: "#37023b",
-        blur: 10
-      }
-    }
-  }
+position: "absolute",
+zIndex: -1,
+top: 10,
+left: 15,
 }
 
 
@@ -37,7 +33,7 @@ class App extends Component{
       <div className="App">
           
            
-          <Particles className="particles"
+          <ParticlesBg color="#c2d3ed" type="cobweb" bg={true} className="particles" 
           
           params={particleOptions}
           

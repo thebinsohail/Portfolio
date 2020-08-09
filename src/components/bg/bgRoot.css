@@ -1,29 +1,26 @@
+body{
+    background-color: rgb(14, 46, 69);
 
+}
 html{
     scroll-behavior: smooth;
 }
 .bio{
-    color: black;
-        background: transparent
+    color: whitesmoke;
+    background: transparent
 }
 
-.particles{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -2;
-}
+
+
 .bio h1{
     margin-top:200px;
   text-align:center;
-  color: black;
+  color: whitesmoke;
 }
 .bio h5{
     margin-top: 25px;
   text-align:center;
-  color: black;
+  color: whitesmoke;
   animation: type 5s;
   white-space: nowrap;
     overflow: hidden;
@@ -62,4 +59,37 @@ html{
 .accomplishments #rows:hover{
     background-color:#0e2e45;
     color: #fff;
+}
+@media (max-width:992px){
+    .accomplishments #rows{
+        display: inline-block;
+        position: justify;
+        width:95%;
+        margin-left:8px
+    }
+    .accomplishments #row3{
+        display: flex;
+        position: relative;
+        width:85%;
+        margin-left: 300px;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:768px){
+    .accomplishments #rows{
+        display: flex;
+        position: relative;
+        width:85%;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .accomplishments #row3{
+        display: flex;
+        position: relative;
+        width:85%;
+        margin-top: 50px;
+        flex-direction: column;
+        
+    }
 }

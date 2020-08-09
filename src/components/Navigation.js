@@ -23,22 +23,24 @@ const Navigation = (props) => {
 
   return (
     <div>
-      <Navbar color="dark" light expand="md">
+
+      <Navbar dark expand="md" style={{background: '#0e2e45'}}>
+
         <NavbarBrand href="#"><MdPermIdentity color="#0e2e45" size="3rem"/>Anas Bin Sohail</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="#">Home</NavLink>
+            <NavItem >
+              <NavLink href="#" style={{color: 'white'}}>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">About</NavLink>
+              <NavLink href="#" style={{color: 'white'}}>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">My Skills</NavLink>
+              <NavLink href="#" style={{color: 'white'}}>My Skills</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Accomplishments</NavLink>
+              <NavLink href="#" style={{color: 'white'}}>Accomplishments</NavLink>
             </NavItem>
             
             
