@@ -23,14 +23,15 @@ html{
     .about img{
         margin-top:50px;
     }
-    .about button{
-        background:#0e2e45;  
-        color: #fff;
+    
+    .bio button{
+        margin-top:25px;
+        background:#fff;  
+        color: #0e2e45;
         white-space: nowrap;
         
     }
-    
-    .about button:hover{
+    .bio button:hover{
         background:#1b5c87;
         color: #fff;
         transition: 0.3s;   

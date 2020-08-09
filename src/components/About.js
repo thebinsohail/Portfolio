@@ -28,7 +28,7 @@ function About() {
                  </Card>
                  </Col>
                  </Row>
-                <a href="./cv/CVAnas.pdf" download="Anas CV"><button>Download CV</button></a>
+                
                 </AnimatedOnScroll>
               
                 

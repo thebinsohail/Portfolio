@@ -26,7 +26,7 @@ const Navigation = (props) => {
 
       <Navbar dark expand="md" style={{background: '#0e2e45'}}>
 
-        <NavbarBrand href="#"><MdPermIdentity color="#0e2e45" size="3rem"/>Anas Bin Sohail</NavbarBrand>
+        <NavbarBrand href="#"><MdPermIdentity color="#fff" size="3rem"/>Anas Bin Sohail</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
