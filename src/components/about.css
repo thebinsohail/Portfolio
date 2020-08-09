@@ -14,10 +14,10 @@ html{
     }
   .aboutrow {
       
-    margin-top: 50px;
-    background:#0e2e45;
+    margin-top: 0px;
+    background:white;
     padding-bottom:150px;
-    padding-top:150px;
+    
   }
 
     .about img{
@@ -27,7 +27,7 @@ html{
         background:#0e2e45;  
         color: #fff;
         white-space: nowrap;
-        margin-top:150px
+        
     }
     
     .about button:hover{

@@ -15,16 +15,10 @@ import Accomp from "./components/Accomp"
 import ParticlesBg from 'particles-bg'
 
 const particleOptions = {
-  particles: {
-    line_linked: {
-      shadow: {
-        enable: true,
-        color: "#0e2e45",
-        blur: 0,
-        
-      }
-    }
-  }
+position: "absolute",
+zIndex: -1,
+top: 10,
+left: 15,
 }
 
 
@@ -39,7 +33,7 @@ class App extends Component{
       <div className="App">
           
            
-          <ParticlesBg type="cobweb" bg={true} className="particles"
+          <ParticlesBg color="#c2d3ed" type="cobweb" bg={true} className="particles" 
           
           params={particleOptions}
           
