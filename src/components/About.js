@@ -15,8 +15,7 @@ function About() {
                 <h3 style={{paddingTop:'50px'}}>Who Am I Actually?</h3>
                
                
-                <Row className="aboutrow">
-                <Col lg="12" md="12" sm="12">
+               
                     <Card  className="cards" style={{marginTop: '50px',marginLeft: '50px',marginRight: '50px',position:'center'}}>
                         <CardBody>
                 <p style={{textAlign:'center'}}>Educated and motivated software engineering student and a quick
@@ -26,8 +25,7 @@ function About() {
                  enjoys a high-pressure team environment.</p>
                  </CardBody>
                  </Card>
-                 </Col>
-                 </Row>
+               
                 
                 </AnimatedOnScroll>
               
