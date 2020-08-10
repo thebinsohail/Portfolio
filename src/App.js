@@ -23,6 +23,7 @@ position: "fixed",
 zIndex: -1,
 top: 10,
 left: 15,
+opacity:50
 }
 
 class App extends Component{
@@ -35,7 +36,7 @@ class App extends Component{
      
       <div className="App">
          <Navigation/>
-          <ParticlesBg color="#c2d3ed" type="cobweb" bg={true} className="particles" 
+          <ParticlesBg color="#020626" type="cobweb" opacity="50%" bg={true} className="particles" 
           
           params={particleOptions}
           
@@ -47,16 +48,16 @@ class App extends Component{
           <Accomp/>
           <Modal.Dialog id='dialog'>
         
-  <Modal.Header >
+  <Modal.Header style={{background:'#0e2e45',color:'white'}}>
     <Modal.Title>WebFolio Under Development</Modal.Title>
   </Modal.Header>
 
   <Modal.Body>
-    <h6>I'm so busy these days couldn't update my information but I'll do it soon</h6>
-    <br/> <h7>-Anas Bin Sohail</h7>
+    <h6>My Web Folio will be updated soon and so as will be fully functional</h6>
+    <br/> <p>-Anas Bin Sohail</p>
   </Modal.Body>
 
-  <Modal.Footer>
+  <Modal.Footer style={{background: 'whitesmoke'}}>
    
     <p><a href="mailto:anassohail.as@gmail.com">Email me</a></p><br/>
     <p><a href="https://www.linkedin.com/in/anas-bin-sohail-502515187/">LinkedIn</a></p>
