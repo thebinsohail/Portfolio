@@ -68,11 +68,11 @@ html{
 .cards{
     display: flex;
     background:#0e2e45;
-    transition:0.4s linear;
+    transition:0.3s linear;
    color: white;
 }
 .cards:hover{
-    color: white;
+   
     background:#1c4766;    
     transition:0.4s linear;
     opacity: 100%;
