@@ -52,9 +52,9 @@ class App extends Component{
     <Modal.Title>WebFolio Under Development</Modal.Title>
   </Modal.Header>
 
-  <Modal.Body>
+  <Modal.Body style={{background: 'whitesmoke'}}>
     <h6>My Web Folio will be updated soon and so as will be fully functional</h6>
-    <br/> <p>-Anas Bin Sohail</p>
+    <br/> <p >-Anas Bin Sohail</p>
   </Modal.Body>
 
   <Modal.Footer style={{background: 'whitesmoke'}}>
