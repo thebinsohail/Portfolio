@@ -66,21 +66,16 @@ html{
         margin-top: 50px;
     }
 .cards{
-    display: flex;
+    
     background:#0e2e45;
     transition:0.3s linear;
    color: white;
 }
-.cards:hover{
-   
-    background:#1c4766;    
-    transition:0.4s linear;
-    opacity: 100%;
-}
+
 @media screen and (max-width:680px){
 
     .cards{
-        position: relative;;
+        position: relative;
         width:80%;
     }
 }
