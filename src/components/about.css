@@ -66,14 +66,16 @@ html{
         margin-top: 50px;
     }
 .cards{
-    background: transparent;
-    transition:0.4s linear;
-    color:black;
-}
-.cards:hover{
+    display: flex;
     background:#0e2e45;
     transition:0.4s linear;
-    color:white;
+   color: white;
+}
+.cards:hover{
+    color: white;
+    background:#1c4766;    
+    transition:0.4s linear;
+    opacity: 100%;
 }
 @media screen and (max-width:680px){
 
