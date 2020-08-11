@@ -14,7 +14,7 @@ function About() {
               
                  <AnimatedOnScroll animationIn="fadeInUp">
                 <h3 style={{paddingTop:'50px'}}>Who Am I Actually?</h3>
-                <img src="images/dev.jpg"/>
+                <img src="images/dev.jpg" alt="Photo"></img>
                
                
                     <Card  className="cards" style={{marginTop: '50px',marginLeft: '50px',marginRight: '50px',position:'center'}}>

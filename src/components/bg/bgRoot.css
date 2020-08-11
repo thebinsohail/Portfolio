@@ -25,7 +25,8 @@ html{
   white-space: nowrap;
     overflow: hidden;
 }
-.dev img{
+.about img{
+    padding-top:50px;
     padding-bottom: 50px;
 }
 
