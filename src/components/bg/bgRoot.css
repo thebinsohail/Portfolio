@@ -25,10 +25,25 @@ html{
   white-space: nowrap;
     overflow: hidden;
 }
+.dev img{
+    padding-bottom: 50px;
+}
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:680px){
 .bio img{
         width: 80%;
+}
+.dev img{
+    width: 80%;
+}
+.skills #techs{
+    size: 2rem;
+} 
+.skills h2{
+    font-size:18px;
+}
+body{
+    background: white;
 }
 }
 

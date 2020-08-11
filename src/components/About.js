@@ -13,7 +13,7 @@ function About() {
         
                  <AnimatedOnScroll animationIn="fadeInUp">
                 <h3 style={{paddingTop:'50px'}}>Who Am I Actually?</h3>
-               
+                <img src="/images/dev.jpg" width="40%" className="dev"></img>
                
                
                     <Card  className="cards" style={{marginTop: '50px',marginLeft: '50px',marginRight: '50px',position:'center'}}>
@@ -40,8 +40,8 @@ function About() {
                   </AnimatedOnScroll>
     
               <AnimatedOnScroll animationIn="fadeInUp">
-            <ul>
-            <li><AiFillHtml5 size="5rem" color=""/><h5>HTML</h5></li>
+            <ul id="techs">
+            <li><AiFillHtml5 size="5rem" /><h5>HTML</h5></li>
             <li><FaCss3Alt size="5rem" color="orange"/><h5>CSS</h5></li>
             <li><FaBootstrap size="5rem" color="purple"/><h5>Bootstrap</h5></li>
             <li><FaReact size="5rem" color="aqua"/><h5>React</h5></li>

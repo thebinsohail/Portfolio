@@ -75,10 +75,10 @@ html{
     transition:0.4s linear;
     color:white;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:680px){
 
     .cards{
         position: relative;;
-        width:70%;
+        width:80%;
     }
 }
