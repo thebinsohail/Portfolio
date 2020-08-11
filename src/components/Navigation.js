@@ -14,6 +14,7 @@ import {
   NavbarText
 } from 'reactstrap';
 import { MdPermIdentity } from "react-icons/md";
+import {BrowserRouter,Route,Switch,Link} from 'react-router-dom';
 
 
 const Navigation = (props) => {
@@ -24,6 +25,7 @@ const Navigation = (props) => {
   return (
     <div>
 
+ 
       <Navbar dark expand="md" style={{background: '#0e2e45'}}>
 
         <NavbarBrand href="#"><MdPermIdentity color="#fff" size="3rem"/>Anas Bin Sohail</NavbarBrand>
@@ -31,16 +33,14 @@ const Navigation = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem >
-              <NavLink href="#" style={{color: 'white'}}>Home</NavLink>
+              <Link to="/" style={{color: 'white'}}>Home</Link>
             </NavItem>
             <NavItem>
-              <NavLink href="#" style={{color: 'white'}}>About</NavLink>
+              <Link to="/about" style={{color: 'white'}}>About</Link>
             </NavItem>
+            
             <NavItem>
-              <NavLink href="#" style={{color: 'white'}}>My Skills</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#" style={{color: 'white'}}>Accomplishments</NavLink>
+              <Link href="/" style={{color: 'white'}}>Contact</Link>
             </NavItem>
             
             
