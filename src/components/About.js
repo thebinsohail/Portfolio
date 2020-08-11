@@ -5,15 +5,16 @@ import {DiJava,DiJsBadge,DiMongodb,DiJqueryLogo,DiGit,DiCode} from "react-icons/
 import { Jumbotron, Button } from 'reactstrap';
 import {AnimatedOnScroll} from "react-animated-css-onscroll";
 import { Container, Row, Col,Card,CardBody} from 'reactstrap';
+
 function About() {
     return (
        <div>
         <div className="about">
        
-        
+              
                  <AnimatedOnScroll animationIn="fadeInUp">
                 <h3 style={{paddingTop:'50px'}}>Who Am I Actually?</h3>
-                <img src="/images/dev.jpg" width="40%" className="dev"></img>
+                <img src="images/dev.jpg"/>
                
                
                     <Card  className="cards" style={{marginTop: '50px',marginLeft: '50px',marginRight: '50px',position:'center'}}>
