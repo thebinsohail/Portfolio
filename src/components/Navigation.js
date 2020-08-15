@@ -14,7 +14,8 @@ import {
   NavbarText
 } from 'reactstrap';
 import { MdPermIdentity } from "react-icons/md";
-
+import {BrowserRouter,Route,Switch} from 'react-router-dom';
+import {Link} from 'react-scroll'
 
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,25 +25,62 @@ const Navigation = (props) => {
   return (
     <div>
 
-      <Navbar dark expand="md" style={{background: '#0e2e45'}}>
+ 
+      <Navbar light expand="md" style={{background: '#f0f3f5'}}>
 
-        <NavbarBrand href="#"><MdPermIdentity color="#fff" size="3rem"/>Anas Bin Sohail</NavbarBrand>
+        <NavbarBrand href="#"><MdPermIdentity color="black" size="3rem"/>Anas Bin Sohail</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem >
-              <NavLink href="#" style={{color: 'white'}}>Home</NavLink>
-            </NavItem>
+        
             <NavItem>
-              <NavLink href="#" style={{color: 'white'}}>About</NavLink>
+                <Link activeClass="active"
+                    to="/"
+                    spy={true}
+                    smooth={true}
+                    hashSpy={true}
+                    offset={50}
+                    duration={500}
+                    
+                    >
+
+               <a href="" style={{color: 'black',textDecoration: 'none'}}> Home</a>
+              </Link> 
             </NavItem>
+
+
             <NavItem>
-              <NavLink href="#" style={{color: 'white'}}>My Skills</NavLink>
+             <Link activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    hashSpy={true}
+                    offset={50}
+                    duration={500}
+                    
+                    >
+
+               <a href=""style={{color: 'black',textDecoration: 'none'}}>About</a>
+              </Link>
             </NavItem>
+
+
+
+
             <NavItem>
-              <NavLink href="#" style={{color: 'white'}}>Accomplishments</NavLink>
+                <Link activeClass="active"
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    hashSpy={true}
+                    offset={50}
+                    duration={500}
+                    
+                    >
+
+                <a href="" style={{color: 'black',textDecoration: 'none'}}>Skills</a>
+              </Link>
             </NavItem>
-            
             
           </Nav>
         

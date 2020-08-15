@@ -1,10 +1,10 @@
 body{
     background: transparent;
+   
+}
 
-}
-html{
-    scroll-behavior: smooth;
-}
+
+
 .bio{
     color: black;
     background: transparent
@@ -25,7 +25,8 @@ html{
   white-space: nowrap;
     overflow: hidden;
 }
-.dev img{
+.about img{
+    padding-top:50px;
     padding-bottom: 50px;
 }
 
@@ -78,5 +79,8 @@ body{
 
 .accomplishments #rows:hover{
     background-color:#0e2e45;
+    color: #fff;
+}
+.mr-auto{
     color: #fff;
 }
