@@ -70,6 +70,8 @@ html{
     background:#0e2e45;
     transition:0.3s linear;
    color: white;
+   width: 50%; 
+   display: inline-block;
 }
 
 @media screen and (max-width:680px){

@@ -9,7 +9,7 @@ import { Container, Row, Col,Card,CardBody} from 'reactstrap';
 function About() {
     return (
        <div>
-        <div className="about">
+        <div className="about" id="about">
        
               
                  <AnimatedOnScroll animationIn="fadeInUp">
@@ -17,8 +17,8 @@ function About() {
                 <img src="images/dev.jpg" alt="Photo"></img>
                
                
-                    <Card  className="cards" style={{marginTop: '50px',marginLeft: '50px',marginRight: '50px',position:'center'}}>
-                        <CardBody>
+    <Card  className="cards" style={{marginTop: '50px',marginLeft: '50px',marginRight: '50px',position:'center'}}>
+                <CardBody>
                 <p style={{textAlign:'center'}}>Educated and motivated software engineering student and a quick
                  learner,quick to ramp up with any existing development platform, and perform
                 design, coding, debugging, and testing application and system software.
@@ -35,7 +35,7 @@ function About() {
 
            
                 
-                 <div className="skills">
+                 <div className="skills" id="skills">
                  <AnimatedOnScroll animationIn="fadeInRight">
               <h2 style={{margin:'0',paddingBottom:'50px'}}>Skills and Technologies on which I work on</h2>
                   </AnimatedOnScroll>

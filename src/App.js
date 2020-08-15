@@ -20,13 +20,13 @@ import {useState} from 'react';
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
 import { render } from 'react-dom';
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import BackToTop from "react-back-to-top-button";
 const particleOptions = {
 position: "fixed",
 zIndex: -1,
 top: 10,
 left: 15,
-opacity:50
+right:15
 }
 
 class App extends Component{
@@ -35,23 +35,12 @@ class App extends Component{
     return (
      
       <div className="App">
-        <BrowserRouter>
-
-         <Navigation/>
-          <ParticlesBg color="#020626" type="cobweb" opacity="50%" bg={true} className="particles" 
-          
-          params={particleOptions}
-          
-          />
-        <Profile/>
-      <Switch>
-      <Route path="/home" exact/>
-      <Route path="/about" component={About} exact></Route>
-      <Route path="/skills" component={Skills} exact/>
-      <Route path="/about" component={About} exact/>
-      </Switch>
-
-</BrowserRouter>
+      <ParticlesBg color="#020626" type="cobweb" opacity="50%" bg={true} className="particles" />
+      <Navigation/>  
+      <Profile/>
+    
+      <About/>       
+      
       </div>
     );
   }
